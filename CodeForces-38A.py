@@ -1,0 +1,5 @@
+n = int(input())
+l = list(map(int,input().split()))
+a,b = map(int,input().split())
+w = sum(l[a-1:b-1])
+print(w)
