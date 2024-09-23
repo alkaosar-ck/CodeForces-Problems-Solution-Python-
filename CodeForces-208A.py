@@ -1,0 +1,5 @@
+i = input().strip()
+l = i.replace('WUB',' ')
+p = l.split()
+j = ' '.join(p)
+print(j)
